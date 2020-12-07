@@ -1,4 +1,3 @@
-const { count } = require('console');
 const fs = require('fs');
 
 const data = fs.readFileSync('day2-passwords.txt', 'utf8').split('\n');
@@ -46,5 +45,5 @@ const interpretation_two = (data) => {
 }
 
 
-// console.log(interpretation_one(data));
+console.log(interpretation_one(data));
 console.log(interpretation_two(data));
